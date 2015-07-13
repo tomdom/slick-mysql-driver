@@ -1,4 +1,4 @@
-# scalabase
+# slick-mysql-driver
 
 Modified Slick MySQL driver for correct handling of Timestamp and Date columns with default values like '0000-00-00 00:00:00' respectively '0000-00-00' while slick source code generation.
 It's useful for MySQL databases with Timestamp or Date columns having one of the mentioned default values and are not marked as nullable. 
