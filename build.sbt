@@ -2,11 +2,11 @@ lazy val root = (project in file(".")).
   settings(
     organization := "com.github.tomdom",
     name := "slick-mysql-driver",
-    version := "0.1-SNAPSHOT",
-    scalaVersion := "2.11.7",
-    crossScalaVersions := Seq("2.10.5", "2.11.7"),
+    version := "0.2-SNAPSHOT",
+    scalaVersion := "2.11.8",
+    crossScalaVersions := Seq("2.10.6", "2.11.8"),
       libraryDependencies ++= Seq (
-      "com.typesafe.slick" %% "slick-codegen" % "3.0.0"
+      "com.typesafe.slick" %% "slick-codegen" % "3.1.1"
       ),
     publishTo := {
       val tomdomMvn = Path.userHome.absolutePath + "/projects/github/tomdom/tomdom-mvn"
